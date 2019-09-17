@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<title>Product</title>
+<style type="text/css">
+
+ #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background:#555;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: rgba(20,20,200,0.8);;
+}
+   #load{background:#fff url(image/abc.gif);height: 100vh;position: fixed;top: 0;
+	background-repeat: no-repeat;background-position: center;z-index: 9999;width: 100%;} 
+</style>
+</head>
+<body ng-app="myApp" ng-controller="mycontrol" onload="webloading()">
+<div id="load"></div>
+<div class="main-content" >
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<section class="record" >
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-3"><div><img src="logo.png" height="45" width="140"></div></div>
+			<div class="col-md-9"><ul >
+	
+	<li class="dropdown dropdown-toggle" >Software <div class="dropdown-content">
+      <a class="dropdown-item"ng-repeat="x in menu" href="#">{{x}}</a>
+     
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Another link</a>
+    </div>
+
+	</li>
+	<li class="dropdown dropdown-toggle">Template
+		<div class="dropdown-content">
+			<a href="" class="dropdown-item" ng-repeat="y in menu1">{{y}}</a>
+		</div>
+	</li>
+	<li class="dropdown dropdown-toggle">Theme
+		<div class="dropdown-content">
+			<a href="" class="dropdown-item" ng-repeat="z in menu2">{{z}}</a>
+		</div>
+	</li>
+	<li>Services</li>
+	<li>Contact Us</li>
+	<li>Blog</li>
+	</ul></div>
+		</div>
+	</div>
+</section>
+<section class="part2">
+	<div class="bg">
+		
+	<center>	
+		<div class="hos"><h1>Hospital Management System Software</h1>
+			<h1><span>Bdtask HMS
+		</span></h1>
+		<div class="bdtask"><p>Bdtask HMS is the most cheapest and easy medical Or clinic management system for keeping patient records and Hospital activities.</p></div>
+			</div>
+	<div id="hos"><img src="hospital.png" height="450px" width="800px">
+
+	</div><div class="live"><a href="">Live Demo</a> </div>
+<div class="pur"><a href="">Purchase Now</a></div></center>
+</div>
+</section>
+<section class="part3">
+	<center>
+		<div  style="margin-top:12%">
+	<h4>Apply Automation, Be Skillful, Maximize Profitability</h4>
+	<div class="tech"><p>Inflation of technology brings the supersonic power to the human. Take a real experience on Hospital management system, one of the blessing of technology & be the superhuman managing a multi-sectoral hospital.</p></div>
+</div>
+	</center>
+	<div class="container"> 
+	<div class="row">
+	<div class="col-md-4"><div>
+<h1><strong>01</strong> </h1>
+		<h5>Intangible handling:</h5>
+		<p>Hospital management system works as an intangible hand. If you are an administrator of a hospital, You can manage your whole enterprise from any place in the world.</p></div></div>
+	<div class="col-md-4"><div>
+<h1><strong>02</strong> </h1>
+		<h5>Ensure the best Medicare:</h5>
+		<p>Hospital management system works as an intangible hand. If you are an administrator of a hospital, You can manage your whole enterprise from any place in the world.</p></div></div>
+	<div class="col-md-4"><div>
+<h1><strong>03</strong> </h1>
+		<h5>Dynamic management:</h5>
+		<p>Hospital management system works as an intangible hand. If you are an administrator of a hospital, You can manage your whole enterprise from any place in the world.</p></div></div>
+	</div>
+	<div class="row">
+	<div class="col-md-4"><div>
+<h1><strong>04</strong> </h1>
+		<h5>Centralized controlling:</h5>
+		<p>Hospital management system works as an intangible hand. If you are an administrator of a hospital, You can manage your whole enterprise from any place in the world.</p></div></div>
+	<div class="col-md-4"><div>
+<h1><strong>05</strong> </h1>
+		<h5>Accumulative services:</h5>
+		<p>Hospital management system works as an intangible hand. If you are an administrator of a hospital, You can manage your whole enterprise from any place in the world.</p></div></div>
+	<div class="col-md-4"><div>
+<h1><strong>06</strong> </h1>
+		<h5>Maximization of profit:</h5>
+		<p>Hospital management system works as an intangible hand. If you are an administrator of a hospital, You can manage your whole enterprise from any place in the world.</p></div></div>
+	</div>
+</div>
+</section>
+<section class="part4">
+	<div class="container">
+		<center>
+			<div style="padding-top: 2%;">
+			<h2>Our Product Feature</h2>
+			<div class="tech"><p>Making delay to take the right decision is an evil decision. So, don’t wait to get the ultimate Hospital Management System. We are provided the best one contrast to the value we receive from you:</p></div>
+			</div>
+		</center>
+	
+	<div class="row" style="padding-top: 4%;">
+		<div class="col-md-6"><div style="box-shadow: 0px 0px 10px black;"><img src="image/a1.jpeg"></div></div>
+		<div class="col-md-6"><div><h2>Superpower administrative module:</h2> <div ><p>Superpower administrative module provides you an ultimate system of management. As an administrator, you can create accounts, specify & offer Doctor's, Nurse, Pharmacists, accountant, laboratorian, receptionist, representative, case managers their responsibilities separately. In this system, no one can access to others account but admin can access all accounts
+</p><p>
+Administrative module make you 100% guaranteed to preserve your data & maintain secrecy of your activities</p></div></div></div>
+	</div>
+	<div class="row" style="padding-top: 4%;">
+		
+		<div class="col-md-6"><div><h2>OPD Management:</h2> <div ><p>Superpower administrative module provides you an ultimate system of management. As an administrator, you can create accounts, specify & offer Doctor's, Nurse, Pharmacists, accountant, laboratorian, receptionist, representative, case managers their responsibilities separately. In this system, no one can access to others account but admin can access all accounts
+</p><p>
+Administrative module make you 100% guaranteed to preserve your data & maintain secrecy of your activities</p></div></div></div>
+<div class="col-md-6"><div style="box-shadow: 0px 0px 10px black;"><img src="image/a2.jpeg"></div></div>
+	</div>
+	<div class="row" style="padding-top: 4%;">
+		<div class="col-md-6"><div style="box-shadow: 0px 0px 10px black;"><img src="image/a3.jpeg"></div></div>
+		<div class="col-md-6"><div><h2>IPD Management:</h2> <div ><p>Superpower administrative module provides you an ultimate system of management. As an administrator, you can create accounts, specify & offer Doctor's, Nurse, Pharmacists, accountant, laboratorian, receptionist, representative, case managers their responsibilities separately. In this system, no one can access to others account but admin can access all accounts
+</p><p>
+Administrative module make you 100% guaranteed to preserve your data & maintain secrecy of your activities</p></div></div></div>
+	</div>
+	<div class="row" style="padding-top: 4%;">
+		
+		<div class="col-md-6"><div><h2>Hospital activity management:</h2> <div ><p>Superpower administrative module provides you an ultimate system of management. As an administrator, you can create accounts, specify & offer Doctor's, Nurse, Pharmacists, accountant, laboratorian, receptionist, representative, case managers their responsibilities separately. In this system, no one can access to others account but admin can access all accounts
+</p><p>
+Administrative module make you 100% guaranteed to preserve your data & maintain secrecy of your activities</p></div></div></div>
+<div class="col-md-6"><div style="box-shadow: 0px 0px 10px black;"><img src="image/a4.jpeg"></div></div>
+	</div>
+	<div class="row" style="padding-top: 4%;">
+		<div class="col-md-6"><div style="box-shadow: 0px 0px 10px black;"><img src="image/a5.jpeg"></div></div>
+		<div class="col-md-6"><div><h2>Doctors, Nurse, Employee Management-(HRM)</h2> <div ><p>Superpower administrative module provides you an ultimate system of management. As an administrator, you can create accounts, specify & offer Doctor's, Nurse, Pharmacists, accountant, laboratorian, receptionist, representative, case managers their responsibilities separately. In this system, no one can access to others account but admin can access all accounts
+</p><p>
+Administrative module make you 100% guaranteed to preserve your data & maintain secrecy of your activities</p></div></div></div>
+	</div>
+	<div class="row" style="padding-top: 4%;">
+		
+		<div class="col-md-6"><div><h2>Lab & Pharmacy management system:</h2> <div ><p>Superpower administrative module provides you an ultimate system of management. As an administrator, you can create accounts, specify & offer Doctor's, Nurse, Pharmacists, accountant, laboratorian, receptionist, representative, case managers their responsibilities separately. In this system, no one can access to others account but admin can access all accounts
+</p><p>
+Administrative module make you 100% guaranteed to preserve your data & maintain secrecy of your activities</p></div></div></div>
+<div class="col-md-6"><div style="box-shadow: 0px 0px 10px black;"><img src="image/a6.jpeg"></div></div>
+	</div>
+	<div class="row" style="padding-top: 4%;">
+		<div class="col-md-6"><div style="box-shadow: 0px 0px 10px black;"><img src="image/a7.jpeg"></div></div>
+		<div class="col-md-6"><div><h2>Website Integration:</h2> <div ><p>Superpower administrative module provides you an ultimate system of management. As an administrator, you can create accounts, specify & offer Doctor's, Nurse, Pharmacists, accountant, laboratorian, receptionist, representative, case managers their responsibilities separately. In this system, no one can access to others account but admin can access all accounts
+</p><p>
+Administrative module make you 100% guaranteed to preserve your data & maintain secrecy of your activities</p></div></div></div>
+	</div>
+	<br>
+</div>
+</section>
+
+<section class="part5">
+	<div class="container-fluid" style="margin: 2% auto;">
+		<center>
+			<div style="padding-top: 2%;">
+			<h2>What did our customer say?</h2>
+			<div class="tech"><p>Our main concern is the customer satisfaction and customer support.lets see what our recent customer says.</p></div>
+			</div>
+		</center>
+
+		<div id="demo" class="carousel slide" data-ride="carousel">
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="row">
+      	<div class="col-md-4" >
+      	<div class="slide1"> <center>
+      		<div >
+      			<img src="image/a9.jpeg" >
+      		</div>
+      		
+      		<h5>Mr Pavan</h5>
+      		<p>CEO</p>
+      		<p>I have been using the Hospital Management System for my uncle Hospital.It gives us pleaser from hard work and spening lots of money.</p>
+      	</center>
+      		
+
+      	</div>
+      	</div>
+      	<div class="col-md-4" >
+      	<div class="slide1"> <center>
+      		<div >
+      			<img src="image/a10.jpeg" >
+      		</div>
+      		
+      		<h5>Mr Pavan</h5>
+      		<p>Owner</p>
+      		<p>I have been using the Hospital Management System for my uncle Hospital.It gives us pleaser from hard work and spening lots of money.</p>
+      	</center>
+      		
+
+      	</div>
+      	</div>
+       <div class="col-md-4" >
+      	<div class="slide1"> <center>
+      		<div >
+      			<img src="image/a11.png" >
+      		</div>
+      		
+      		<h5>Mr Pavan</h5>
+      		<p>Developer</p>
+      		<p>I have been using the Hospital Management System for my uncle Hospital.It gives us pleaser from hard work and spening lots of money.</p>
+      	</center>
+      		
+
+      	</div>
+      	</div>
+      </div>
+      <br>
+    </div>
+    <div class="carousel-item">
+      <div class="row">
+      	<div class="col-md-4" >
+      	<div class="slide1"> <center>
+      		<div >
+      			<img src="image/a9.jpeg" >
+      		</div>
+      		
+      		<h5>Mr Pavan</h5>
+      		<p>CEO</p>
+      		<p>I have been using the Hospital Management System for my uncle Hospital.It gives us pleaser from hard work and spening lots of money.</p>
+      	</center>
+      		
+
+      	</div>
+      	</div>
+      	<div class="col-md-4" >
+      	<div class="slide1"> <center>
+      		<div >
+      			<img src="image/a10.jpeg" >
+      		</div>
+      		
+      		<h5>Mr Pavan</h5>
+      		<p>Owner</p>
+      		<p>I have been using the Hospital Management System for my uncle Hospital.It gives us pleaser from hard work and spening lots of money.</p>
+      	</center>
+      		
+
+      	</div>
+      	</div>
+       <div class="col-md-4" >
+      	<div class="slide1"> <center>
+      		<div >
+      			<img src="image/a11.png" >
+      		</div>
+      		
+      		<h5>Mr Pavan</h5>
+      		<p>Developer</p>
+      		<p>I have been using the Hospital Management System for my uncle Hospital.It gives us pleaser from hard work and spening lots of money.</p>
+      	</center>
+      		
+
+      	</div>
+      	</div>
+      </div>
+       <br>
+    </div>
+  
+    
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+     <div class="prev"><center><span class="carousel-control-prev-icon"></span></center> </div>
+  </a>
+  <a  class="carousel-control-next" href="#demo" data-slide="next">
+    <div class="prev"><center><span class="carousel-control-next-icon"></span></center> </div>
+  </a>
+
+</div>
+
+	</div>
+	<div class="container-fluid">
+		<center><h1><span>Support</span>.Sales Partner.<span>Documentation</span></h1>
+			<div class="tech"><p>We know what it’s like to need support. Our philosophy is to treat you as we would like to be treated. With a hands-on support center, online documentation and Youtube video tutorials, We are looking for sales agent who can generate sales for our software. Our support is available from Saturday - Friday | 9:00 AM - 5:00 PM , 24/7</p></div>
+	
+		<div>
+			<ul>
+				<li><div class="support"><a href="">Email Support</a> </div></li>
+				<li><div  class="support"><a href="">Be Partner</a> </div></li>
+				<li><div  class="support"><a href="">Documentation</a> </div></li>
+			</ul>
+		</div>
+			</center>
+	</div>
+	
+</section>
+<section class="part6">
+	<div class="container">
+		<center>
+			<div style="padding-top: 2%;">
+			<h2>Our Featured Product.</h2>
+			<div class="tech"><p>Our products are highly effective and feature complete products. Below are our products provided, which you can <span>Browse All Softwares</span> .</p></div>
+			</div>
+		</center>
+		<div class="row">
+			<div class="col-md-4"><div class="system"><img src="image/a13.jpeg"heigth="400" width="350px" >
+				<h4>Clinic365 - Clinic Management System</h4>
+				<p>$44</p>
+				<p>Clinic365 – Clinic Management System is for any types of small and medium type Clinic , Diagnostic center and medium hospital. It is useful for doctors, hospitals and clinic.It is developed by PHP and Code igniter.</p>
+	<div>
+			<ul>
+				<li><div class="support"><a href="">Live Demo</a></div>
+				</li>
+				<li><div  class="support"><a href="">Buy Now</a></div></li>
+			
+			</ul>
+		</div>
+			</div>
+			</div>
+			<div class="col-md-4"><div class="system"><img src="image/a14.jpeg"heigth="400" width="350px" >
+				<h4>Doctorss - Doctor Appointment And Prescription System With Website</h4>
+				<p>$44</p>
+				<p>Doctorss is a online Doctor Appointment and Scheduler application software for getting appointment very easily over internet. This application software is developed by PHP.</p>
+	<div>
+			<ul>
+				<li><div class="support"><a href="">Live Demo</a></div>
+				</li>
+				<li><div  class="support"><a href="">Buy Now</a></div></li>
+			
+			</ul>
+		</div>
+			</div>
+			</div>
+		<div class="col-md-4"><div class="system"><img src="image/a15.jpeg"heigth="400" width="350px" >
+				<h4>Multi Hospital - Best Hospital Management System (SaaS App)</h4>
+				<p>$44</p>
+				<p>Multi Hospital is a hospital management system software which is actually used for managing single or multiple hospital, diagnostic center, clinic and nursing home.</p>
+	<div>
+			<ul>
+				<li><div class="support"><a href="">Live Demo</a></div>
+				</li>
+				<li><div  class="support"><a href="">Buy Now</a></div></li>
+			
+			</ul>
+		</div>
+			</div>
+			</div>
+		</div>
+		<div style="margin-top: 5%;">
+			<center>
+				<ul>
+			
+				<li><div  class="support1"><a href="">Browser All Software</a></div></li>
+			
+			</ul>
+			</center>
+			
+		</div>
+		<br>
+	</div>
+
+</section>
+<section class="part7">
+	<div class="container-fluid" > 
+<center>
+			<div style="padding-top: 2%;">
+			<h2>Our Client</h2>
+			<div class="tech"><p>We have more then 2,500 Clients on the Software. Some of our Recent Clients are shown here below.</p></div>
+			</div>
+		</center>
+<div class="row">
+	<div class="col-md-3"><a href=""><img src="image/a19.jpeg"></a></div>
+	<div class="col-md-3"><a href=""><img src="image/a20.jpeg"></a></div>
+	<div class="col-md-3"><a href=""><img src="image/a21.jpeg"></a></div>
+	<div class="col-md-3"><a href=""><img src="image/a22.jpeg"></a></div>
+</div>
+	</div>
+	<div  ><img src="image/a16.png" width="100%"></div>
+	<footer  id="demo3"  >
+	<div class="container">
+		<div class="row" style="padding-top: 5%;">
+			<div class="col-md-2">
+				<div><h6>Address</h6>
+				<p>Bangladesh Office
+B-25, Mannan Plaza, 4th Floor, Khilkhet
+Dhaka-1229, Bangladesh</p></div>
+<div><h6>Email Address</h6>
+				<p>bdtask@gmail.com 
+info@bdtask.com</p></div>
+<div><h6>Phone Number</h6>
+				
+<p>Support: +88-01817-584639<br>Sales: +88-01922-296392
+</p></div></div>
+			<div class="col-md-3"><div>
+				<h6>SUPPORT</h6>
+				<ul><li ng-repeat="g in footer"><a href="">{{g}}</a></li></ul>
+			</div></div>
+			<div class="col-md-3"><div>
+				<h6>BDTASK TERMS</h6>
+				<ul><li ng-repeat="g in footer"><a href="">{{g}}</a></li></ul>
+			</div></div>
+			<div class="col-md-3"><div>
+				<h6>Products</h6>
+				<ul><li ng-repeat="g in footer"><a href="">{{g}}</a></li></ul>
+			</div>
+		</div>
+
+
+		</div>
+<div class="hr"></div>
+<div class="social">
+    <ul>
+    <li>
+        <a href=""><div onmouseover=" myOverFunction() " onmouseout="myout()" id="a"><i class="fa fa-google-plus"></i></div>   </a>
+        </li>
+    <li>   <a href=""><div onmouseover=" myOverFunction1()" onmouseout="myout()"id="a1"><i class="fa fa-facebook"></i></div> </a></li>
+      <li>   <a href=""><div onmouseover=" myOverFunction2()" onmouseout="myout()"id="a2"><i class="fa fa-pinterest-p"></i></div> </a></li>
+         <li>   <a href=""><div onmouseover=" myOverFunction3()"onmouseout="myout()" id="a3"><i class="fa fa-twitter"></i></div> </a></li>
+         <li>   <a href=""><div onmouseover=" myOverFunction4()" onmouseout="myout()"id="a4"><i class="fa fa-youtube"></i></div> </a></li>
+    </ul>
+    <br>
+ </div>
+
+
+	</div>
+
+</footer>
+</section>
+
+</div>
+
+    <script>
+    function myOverFunction() {
+  document.getElementById("demo3").style.background="#dc5043";
+     }
+        function myout(){
+            document.getElementById("demo3").style.background="#1a1a1a";
+        }
+          function myOverFunction1() {
+  document.getElementById("demo3").style.background="#415e9b";}
+                function myOverFunction2() {
+  document.getElementById("demo3").style.background="#e60023";}
+                      function myOverFunction3() {
+  document.getElementById("demo3").style.background="#1da1f2";
+}
+                    function myOverFunction4() {
+  document.getElementById("demo3").style.background="#ff0000";
+}</script>
+<script>
+var app = angular.module("myApp", []);
+app.controller("mycontrol", function($scope) {
+  $scope.menu = [
+    "Software",
+    "Theme",
+    "Template",
+    "Services","Blog","Contact Us"
+  ]
+  $scope.menu1 = [
+    "Raja",
+    "Theme",
+    "Template",
+    "Services","Blog","Contact Us"
+  ]
+  $scope.menu2 = ["Holamad","HMIS"]
+  $scope.footer = [
+    "Raja",
+    "Theme",
+    "Template",
+    "Services","Blog","Contact Us"
+  ]
+});
+   
+</script>
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+<script type="text/javascript">
+  	function webloading(){
+  		document.getElementById("load").style.display="none";
+  	}
+  </script>
+</body>
+</html>
